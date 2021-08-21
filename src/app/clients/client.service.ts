@@ -45,7 +45,7 @@ export class ClientService {
   }
 
   getAllClients() {
-    return this.http.get<IClient[]>(`${apiURL}/data/clients?sortBy=created%20desc`);
+    return this.http.get<IClient[]>(`${apiURL}/data/clients?sortBy=created%20desc&pageSize=100`);
   }
 
   // loadTheme(id: string) {
