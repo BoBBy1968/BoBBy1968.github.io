@@ -1,0 +1,33 @@
+.detail{
+    width: 10%;
+}
+
+.user-data{
+    text-align: center;
+}
+
+.user-data-title{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.user-data-title span{
+    font-size: 20px;
+    font-weight: 700;
+    background-color: lightsteelblue;
+}
+
+section{
+    text-align: center;
+    font-size: 40px;
+    background-image: url('../../../assets/powerPlant.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: bottom;
+}
+
+section p {
+    padding-top: 100px;
+
+}

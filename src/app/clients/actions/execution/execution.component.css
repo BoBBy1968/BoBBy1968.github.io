@@ -1,0 +1,80 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    margin: 30px auto 30px auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    width: 1000px;
+    border: 1px solid black;
+    padding-bottom: 50px;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title{
+    max-width: 50%;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.logo{
+    height: 200px;
+    width: 200px;
+}
+
+h1, h3{
+    margin-bottom: 30px;
+}
+
+h4{
+    margin-bottom: 10px;
+}
+
+main{
+
+}
+
+p, .evidence-title{
+    margin-bottom: 20px;
+}
+
+.evidence-text{
+    margin-bottom: 0px;
+}
+
+.evidence-title{
+
+}
+
+.initial{
+    text-indent: 50px;
+}
+
+main p{
+    text-indent: 50px;
+}
+
+.data{
+    font-weight: 800;
+}
+
+#sign{
+    text-align: right;
+    position: relative;
+}
+
+#signature{
+    position: absolute;
+    height: 100px;
+    width: 200px;
+    right: -30px;
+    top: -49px;
+    z-index: -1;
+}
